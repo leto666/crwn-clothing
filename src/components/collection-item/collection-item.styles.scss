@@ -11,6 +11,16 @@
       background-size: cover;
       background-position: center;
       margin-bottom: 5px;
+      flex: 1;
+      position: relative;
+     
+      .add-button {
+        position: absolute;
+        bottom: 5px;      
+        left: 5%;              
+        transform: translateX(-30%);
+      }
+      
     }
   
     .collection-footer {

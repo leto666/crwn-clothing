@@ -1,0 +1,36 @@
+.footer {
+    position:absolute;
+    left:0;
+    right:0;
+    height: 80px;
+    width: 100%;
+    
+
+    justify-content: space-evenly;
+    background-image: url(../../assets/diamonds.png);
+
+
+    .logo-container {
+        left: 0;
+        position: absolute;
+        height: 40px;
+        width: 70px;
+        padding: 25px;
+
+        
+    }
+
+    .options {
+        position: absolute;
+        left: 200px;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+          
+        .option {
+            padding: 10px 15px;
+        }
+    }
+    
+}
